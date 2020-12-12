@@ -1,0 +1,82 @@
+{
+  "screen": {
+    "screen_name": "Customer’s Table",
+    "screen-type": "Table",
+    "data-url": "www.someserver.com/data1",
+    "elements": [
+      {
+        "name": "List of Customers",
+        "type": "Table",
+        "columns": [
+          {
+            "field_name": "Company",
+            "field_type": "Icon-Text"
+          },
+          {
+            "field_name": "Date",
+            "field_type": "Date"
+          },
+          {
+            "field_name": "Status",
+            "field_type": "Status"
+          },
+          {
+            "field_name": "Employee",
+            "field_type": "Icon-Text"
+          }
+        ],
+        "table-buttons": [
+          {
+            "action_name": "Delete",
+            "action_type": "Link",
+            "action_url": "/delete_customer"
+          },
+          {
+            "action_name": "Add New Entery",
+            "action_type": "Link",
+            "action_url": "/add_customer"
+          }
+        ],
+        "table-settings-buttons": [
+          {
+            "action_name": "Merge Selected",
+            "action_type": "Link",
+            "action_url": "/merge_customer"
+          },
+          {
+            "action_name": "Deactivate",
+            "action_type": "Link",
+            "action_url": "/deactivate_customer"
+          },
+          {
+            "action_name": "Export XLS",
+            "action_type": "Link",
+            "action_url": "/export "
+          }
+        ],
+        "table-row-buttons": [
+          {
+            "action_name": "View Details",
+            "action_type": "Link",
+            "action_url": "/details_customer"
+          },
+          {
+            "action_name": "Edit",
+            "action_type": "Link",
+            "action_url": "/deactivate_customer"
+          },
+          {
+            "action_name": "Print",
+            "action_type": "Link",
+            "action_url": "/export "
+          },
+          {
+            "action_name": "Delete",
+            "action_type": "Link",
+            "action_url": "/del_customer "
+          }
+        ]
+      }
+    ]
+  }
+}
